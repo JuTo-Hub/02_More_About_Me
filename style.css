@@ -1,0 +1,9 @@
+#photo {
+    width: 200px;
+    length: 200px;
+}
+.wrap {
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
