@@ -17,8 +17,10 @@ body{
     margin-right: 35px;
     width: 30%;
 }
-
-.wrap {
+.img-thumbnail {
+    float: left;
+}
+.wrap, p {
     font-family: 'Roboto Slab', serif;
     font-size: 26px;
 }

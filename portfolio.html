@@ -1,53 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JT Portfolio</title>
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JT Portfolio</title>
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="index.html">Justin Torres</a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="index.html">Justin Torres</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">My Lovely Portfolio</h1>
+      <p class="lead wrap">Check out my work!</p>
+      <hr class="my-4">
+      <!-- Use placeholder images in leiu of work -->
+      <div class="row">
+        <div class="col-md-6">
+          <a href="https://juto-hub.github.io/03_Password_Generator/">
+            <img src="./assets/PasswordGen.png" style="margin:5px; width:200px;height:200px;"
+              alt="A Simple Password Generator" class="img-thumbnail">
+          </a>
+          <p>This is a simple password generator that takes in user input to create a password.</p>
         </div>
-      </nav>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">My Lovely Portfolio</h1>
-          <p class="lead wrap">Check out my work!</p>
-          <hr class="my-4">
-          <!-- Use placeholder images in leiu of work -->
-         <div class="row">
-          <div class="col-md-6"> <img src="http://placehold.jp/200x200.png" style="margin:5px;" alt="Placeholder img 1" class="img-thumbnail"></div>
-          <div class="col-md-6"> <img src="http://placehold.jp/200x200.png" style="margin:5px;" alt="Placeholder img 2" class="img-thumbnail"></div>
-         </div>
-         <div class="row">
-          <div class="col-md-6"> <img src="http://placehold.jp/200x200.png" style="margin:5px;" alt="Placeholder img 1" class="img-thumbnail"></div>
-          <div class="col-md-6"> <img src="http://placehold.jp/200x200.png" style="margin:5px;" alt="Placeholder img 2" class="img-thumbnail"></div>
-         </div>
-         <div class="row">
-          <div class="col-md-6"> <img src="http://placehold.jp/200x200.png" style="margin:5px;" alt="Placeholder img 1" class="img-thumbnail"></div>
-          <div class="col-md-6"> <img src="http://placehold.jp/200x200.png" style="margin:5px;" alt="Placeholder img 2" class="img-thumbnail"></div>
-         </div>
+        <div class="col-md-6">
+          <a href="https://juto-hub.github.io/04_Code_Test/">
+            <img src="./assets/CodeQuiz.png" style="margin:5px; width:200px;height:200px;" 
+            alt="A Quick Coding Quiz" class="img-thumbnail">
+          </a>
+          <p>This is a quick exam to test your basic knowledge of coding.
+            It even records your highscore at the end.
+          </p>
         </div>
       </div>
-    </body>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="https://juto-hub.github.io/05_-Day_Planner/">
+            <img src="./assets/DayScheduler.png" style="margin:5px; width:200px;height:200px;" 
+            alt="A Very Simple Day Planner" class="img-thumbnail">
+          </a>
+          <p>A simple day scheduler that is color coded for cureent and future hours. 
+            Use it to keep track of meetings or other plans for the day.</p>
+        </div>
+
+        <div class="col-md-6">
+          <a href="https://juto-hub.github.io/06_Weather_Wizard/">
+            <img src="./assets/WeatherWizard.png" style="margin:5px; width:200px;height:200px" 
+            alt="A Weather Searching Application" class="img-thumbnail">
+        </a>
+        <p>The Ultimate Weather Wizard. It keeps track of multiple cities weather data at once, 
+          even 5 day forecast data! Just type in a city and let it work.  </p>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="http://placehold.jp/200x200.png" style="margin:5px;" alt="Placeholder img 1" class="img-thumbnail">
+        </div>
+        <div class="col-md-6">
+          <img src="http://placehold.jp/200x200.png" style="margin:5px;" alt="Placeholder img 2" class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
